@@ -39,6 +39,9 @@ public class  ventana2 extends JFrame
        panel.add(label);
        panel.add(text);
        panel.add(boton);
+       panel.add(ticket);
+       panel.add(elegir);
+       
        
        
        //paso 7-propiedades de los objetos

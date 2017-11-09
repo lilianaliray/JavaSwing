@@ -21,6 +21,15 @@ public class JavaSwing {
     {
         
         // TODO code application logic here
+        //paso 9- llamado a la clase JFrame
+      
+        ventana2 ventana = new ventana2();// crea un objeto tipo ventana2
+        ventana.setVisible(true);
+        ventana.setBounds(0, 0,600, 800);
+        // la siguiente inst. le pone titulo a la ventana
+        ventana.setTitle("Mi primer interfaz grafica");
+        // la siguiente sentencia es para finalizar el proyecto al cerrar
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     }
     

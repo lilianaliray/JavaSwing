@@ -5,7 +5,7 @@
  */
 package javaswing;
 // paso 8- importar la clase con la ventana
-import Ventana2.Ventana2;// import paquete.clases
+import Ventana2.ventana2;// import paquete.clases
 import javax.swing.JFrame;
 
 /**
@@ -17,8 +17,11 @@ public class JavaSwing {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        
         // TODO code application logic here
+        
     }
     
 }
